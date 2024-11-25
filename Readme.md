@@ -2,7 +2,23 @@
 
 ## Overview
 
-This project demonstrates an automated data processing pipeline utilizing Apache Airflow for workflow orchestration, Amazon EMR for big data processing, and Snowflake for data storage and analytics. The pipeline ingests, processes, and loads data for analytical purposes, showcasing a scalable architecture for handling big data workloads.
+This project demonstrates the implementation of a scalable big data architecture using an EMR cluster for distributed processing, Apache Airflow for workflow orchestration, and PySpark for data transformation. The processed data is seamlessly loaded into Snowflake, showcasing an end-to-end big data pipeline.
+
+While the dataset size was relatively small, the architecture was intentionally designed to simulate the demands of processing large-scale data. The project highlights the integration of tools and technologies to handle high data velocity and volume, ensuring reliability and scalability.
+
+## Key Features:
+
+EMR Cluster Setup: Configured and optimized a customized EMR cluster for distributed data processing, mimicking real-world big data scenarios.
+Workflow Orchestration: Utilized Apache Airflow to schedule, monitor, and manage ETL tasks, ensuring efficient and fault-tolerant execution.
+Data Transformation: Processed raw data with PySpark, leveraging its distributed computing capabilities to prepare the data for analysis.
+Data Integration: Loaded transformed data into Snowflake, enabling seamless storage and querying for analytics.
+Purpose-Driven Design: Despite the dataset's size, the architecture emphasizes scalability, outlining how similar systems can be applied to large datasets in production environments.
+Impact and Learning Outcomes:
+
+Gained hands-on experience in building and deploying a scalable big data architecture.
+Strengthened skills in workflow automation, distributed computing, and cloud-based data integration.
+Showcased the ability to design systems that balance flexibility, scalability, and reliability for big data applications.
+This project serves as a blueprint for handling big data workflows, bridging theoretical knowledge and practical application.
 
 ## System Architecture
 
